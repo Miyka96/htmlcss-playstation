@@ -8,9 +8,15 @@
 #lens-icon{
     height: 26px;
 }
-/* SECTION JUMBO */
+/* SECTION JUMBO (returnal + it takes two)*/
 .jumbo{
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.jumbo .row{
+    min-height: 600px;
 }
 .jumbo-logo{
     max-width: 215px;
@@ -21,12 +27,25 @@
 .jumbo-description{
     font-size: 1rem;
 }
-.jumbo-returnal{
+.returnal{
     background-image: url(img/jumbo-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
-.jumbo .row{
-    min-height: 600px;
+.it-takes-two{
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* MINI-CARDS SECTION */
+.mini-card-wrapper{
+
+}
+.mini-card-wrapper>img{
+    max-height: 120px;
+    border: 3px solid transparent;
+    padding: 3px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.mini-card-wrapper>img:hover{
+    border: 3px solid blue;
+    transition: ease-in-out 0.5s;
 }
