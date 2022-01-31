@@ -89,8 +89,29 @@
  .ps4-thumb>img{
     max-width: 100%;
 }
+/* PS PLUS SECTION */
+.ps-plus{
+    background-color: rgb(187, 187, 187);
+}
+.ps-plus-logo{
+    max-height: 70px;
+}
+#btn-ps-plus{
+    background-color: rgb(219, 219, 219);
+    color: blue;
+    border: none;
+}
+.ps-plus-thumb{
+    max-width: 100%;
+}
 
-
+/* PS NOW SECTION */
+.ps-now{
+    background-color: rgb(0, 0, 48);
+}
+.ps-now-logo{
+    max-height: 70px;
+}
 
 
 
