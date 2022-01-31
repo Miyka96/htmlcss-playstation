@@ -55,7 +55,16 @@
     color: grey;
     font-weight: 400;
 }
-.play-5-thumb>img{
+.play-5-thumb-big>img{
     max-width: 100%;
 }
-
+.play-5-thumb>img{
+    width: 120px;
+}
+.play-5-thumb{
+    border-bottom: 2px solid transparent;
+}
+.play-5-thumb:hover{
+    border-bottom: 2px solid rgb(50, 122, 255) ;
+    transition: ease-in 0.5s;
+}
